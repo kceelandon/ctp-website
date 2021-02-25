@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Chi Theta Psi Website Code Repository
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
