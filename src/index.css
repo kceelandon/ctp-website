@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: Nobel;
+  src: local('Nobel'), url('./fonts/Nobel/Nobel-Regular.ttf') format('ttf');
+}
