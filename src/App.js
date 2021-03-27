@@ -1,11 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Recruitment from './pages/Recruitment'
-import Philanthropy from './pages/Philanthropy'
-import Contact from './pages/Contact'
-import Tabs from './components/Tabs'
+import Tabs from './components/Navbar/Tabs'
 
 function App() {
   return (
