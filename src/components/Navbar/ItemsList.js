@@ -1,22 +1,22 @@
 export const ItemsList = [
     {
         title: 'Home',
-        url: '/',
+        url: '/home',
         cName: 'nav-links'
     },
     {
         title: 'About Us',
-        url: '#',
+        url: '/about',
         cName: 'nav-links'
     },
     {
         title: 'Recruitment',
-        url: '#',
+        url: '/recruitment',
         cName: 'nav-links'
     },
     {
         title: 'Philanthropy',
-        url: '#',
+        url: '/philanthropy',
         cName: 'nav-links'
     },
     {

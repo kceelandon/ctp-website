@@ -1,8 +1,8 @@
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import React, { Component, useState } from 'react'
 import './Tabs.css'
-import {ItemsList} from './ItemsList'
-import {Button} from '../Button'
+import { ItemsList } from './ItemsList'
+import { Button } from '../Button'
 
 function Tabs(props) {
     /* TODO:
@@ -26,9 +26,9 @@ function Tabs(props) {
                     </li>
                 })}
             </ul>
-            <Button>Contact Us</Button> {/* onClick should pop up form where user can enter info and send email to ctp */}
+            <Button>Contact Us</Button>
         </nav>
-    );
+    )
 }
 
 export default Tabs;
