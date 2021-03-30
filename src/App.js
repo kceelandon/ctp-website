@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 import Tabs from './components/Navbar/Tabs'
+import Home from './pages/Homepage/Home';
 
 function App() {
   return (
@@ -21,8 +22,7 @@ function App() {
               <h1>Philanthropy</h1>
             </Route>
             <Route path="/">
-              {/* insert home page component(s) here */}
-              <h1>Home</h1>
+              <Home/>
             </Route>
           </Switch>
         </Router>
