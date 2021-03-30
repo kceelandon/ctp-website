@@ -41,7 +41,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.div`
-    color: ${({ lightTopLine }) => (lightTopLine ? '#A9B3C1' : '#4B59F7')};
+    color: ${({ lightTopLine }) => (lightTopLine ? '#A9B3C1' : '#BE362D')};
     font-size: 18px;
     line-height: 16px;
     letter-spacing: 1.4px;
@@ -76,4 +76,5 @@ export const Img = styled.img`
     vertical-align: middle;
     display: inline-block;
     max-height: 500px;
+    color: ${({ altTextLight }) => (altTextLight ? '#fff' : 'black')};
 `;

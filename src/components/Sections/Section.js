@@ -23,7 +23,8 @@ const Section = ({
     topLine,
     img,
     alt,
-    start
+    start,
+    altTextLight
 }) => {
     return (
         <div>
@@ -39,7 +40,7 @@ const Section = ({
                         </InfoColumn>
                         <InfoColumn>
                             <ImgWrapper start={start}>
-                                <Img src={img} alt={alt} />
+                                <Img src={img} alt={alt} altTextLight={altTextLight}/>
                             </ImgWrapper>
                         </InfoColumn>
                     </InfoRow>
