@@ -18,3 +18,18 @@ export const homeOne = {
     start: '',
     altTextLight: false
 };
+
+export const homeTwo = {
+    lightBg: true,
+    imgStart: true,
+    lightTopLine: false,
+    lightText: false,
+    lightTextDesc: false,
+    description: "University of Washington's only Filipino-interest Fraternity",
+    headline: 'Welcome to Chi Theta Psi!',
+    topLine: 'Magkasama Bilang Isa',
+    img: require('../../images/svg-1.svg').default,
+    alt: 'Image',
+    start: false,
+    altTextLight: false
+};

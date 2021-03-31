@@ -1,11 +1,12 @@
 import React from 'react';
 import Section from '../../components/Sections/Section';
-import { homeOne } from './Data';
+import { homeOne, homeTwo } from './Data';
 
 function Home() {
     return (
         <div>
             <Section {...homeOne}></Section>
+            <Section {...homeTwo}></Section>
         </div>
     );
 }
