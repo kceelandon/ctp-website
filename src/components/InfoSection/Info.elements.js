@@ -18,4 +18,8 @@ export const Information = styled.p`
     margin-bottom: 40px;
 `;
 
+export const ParagraphColumn = styled.div`
+
+`;
+
 /* may need to create a new InfoColumn or mess with the styling in Section.elements.js */
