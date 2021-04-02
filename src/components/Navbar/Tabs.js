@@ -13,7 +13,7 @@ function Tabs(props) {
     const [clicked, setClicked] = useState(false);
     return (
         <nav className="items">
-            <h1 className="navbar-logo"><img src={require('../../images/logo.svg').default} className="logo"/></h1>
+            <h1 className="navbar-logo"><img src={require('../../images/logo.svg').default} className="logo" alt="ctp-logo"/></h1>
             <div className="menu-icon" onClick={() => setClicked(!clicked)}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>

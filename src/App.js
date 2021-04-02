@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
 import Tabs from './components/Navbar/Tabs'
 import Home from './pages/Homepage/Home';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -10,8 +11,7 @@ function App() {
         <Router>
           <Switch>
             <Route path="/about">
-              {/* insert about page component(s) here */}
-              <h1>About</h1>
+              <About />
             </Route>
             <Route path="/recruitment">
               {/* insert recruitment page component(s) here */}
